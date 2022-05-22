@@ -1,0 +1,115 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color:
+  --primary-white-color:
+
+body {
+  /* цвет фона #E5E5E5; */
+  /* цвет основного текста #212121 */
+  /* цвет текста вторичный синий #2196F3 */
+  /* цвет текста вторичный серый #757575 */
+  /* белый #FFFFFF; */
+  /* фон для нашей команды #F5F4FA; */
+  /* акцент #2196F3 */
+  color: #212121;
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+
+  
+
+
+}
+
+/* логотип #2196F3,#000000;*/
+.logo {
+font-family: Raleway, cursive;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+color: #000000;}
+
+
+
+/* Site Navigation */
+.site-nav .link {
+font-family: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #2196F3;
+color: #212121;
+}
+
+/* Auth Navigation */
+.auth-nav{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+color: #2196F3;
+}
+
+/* Hero */
+.hero {
+background-color: #2f303a;
+}
+
+.hero-title{
+color: #ffffff;
+font-style: 400;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.button{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*Особенности*/
+
+.feature-list .title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.feature-list .text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*team*/
+.section-team{
+background-color: #F5F4FA;
+}
