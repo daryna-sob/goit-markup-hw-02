@@ -45,17 +45,13 @@ ul {
 
 /* логотип */
 
-.logo {
+.logo-header {
   font-family: raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-}
-
-.logo:focus {
-  color: var(--tertiary-text-color);
 }
 
 .logo-word {
@@ -191,6 +187,14 @@ ul {
   line-height: 1.71;
 }
 
+.logo-footer {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--quaternary-text-color);
+}
 .address {
   font-style: normal;
 }
@@ -233,10 +237,6 @@ ul {
   color: var(--primary-text-color);
 }
 
-.section-works-button {
-}
-.works-links {
-}
 .section-works-button {
   font-family: inherit;
   font-weight: 500;
