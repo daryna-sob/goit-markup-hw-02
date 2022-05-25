@@ -33,7 +33,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -46,21 +46,26 @@ ul {
 /* логотип */
 
 .logo-header {
-  font-family: raleway;
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
 .logo-word {
   color: var(--tertiary-text-color);
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /* Site Navigation */
 
-.header-nav.link.current {
+.header-nav .link.current {
   color: var(--tertiary-text-color);
 }
 .header-link {
@@ -71,7 +76,14 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.header-item-nav .link {
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--tertiary-text-color);
+}
+
+.header-item-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -80,28 +92,11 @@ ul {
 }
 
 /* Contacts Navigation */
-.header-contacts {
+.header-contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.header-link:hover,
-.header-link:focus,
-.header-contacts:hover,
-.header-contacts:focus,
-.link-mail:hover,
-.link-mail:focus,
-.link-tel:hover,
-.link-tel:focus {
-  color: var(--tertiary-text-color);
-}
-
-.link-mail {
-  color: var(--tertiary-text-color);
-}
-.link-tel {
   color: var(--primary-text-color);
 }
 
@@ -131,11 +126,6 @@ ul {
   color: var(--quaternary-text-color);
   background-color: var(--tertiary-text-color);
   cursor: pointer;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--tertiary-text-color);
 }
 
 .section-title {
@@ -189,10 +179,10 @@ ul {
 
 .logo-footer {
   font-family: raleway;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--quaternary-text-color);
 }
 .address {
@@ -209,15 +199,6 @@ ul {
 }
 .contacts-phone {
   color: var(--footer-text-color);
-}
-
-.footer-location:hover,
-.footer-location:focus,
-.contacts-mail:hover,
-.contacts-mail:focus,
-.contacts-phone:hover,
-.contacts-phone:focus {
-  color: var(--tertiary-text-color);
 }
 
 /*portfolio.html*/
@@ -244,10 +225,11 @@ ul {
   line-height: 1.62;
   text-align: center;
   color: var(--secondary-text-color);
-  background-color: var(--section-backgrond-color);
   cursor: pointer;
 }
+
 .section-works-button:hover,
-:focus {
+.section-works-button:focus {
   background-color: var(--tertiary-text-color);
+  color: var(--main-background-color);
 }
